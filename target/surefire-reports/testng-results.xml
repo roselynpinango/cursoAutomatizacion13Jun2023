@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-13T19:12:29 ART" name="Surefire suite" finished-at="2023-06-13T19:15:01 ART" duration-ms="152209">
+    <groups>
+    </groups>
+    <test started-at="2023-06-13T19:12:29 ART" name="Surefire test" finished-at="2023-06-13T19:15:01 ART" duration-ms="152209">
+      <class name="Edit.EducacionIT_64250.AccesoABaseDeDatosTest">
+        <test-method signature="testBaseDeDatos()[pri:0, instance:Edit.EducacionIT_64250.AccesoABaseDeDatosTest@222114ba]" started-at="2023-06-13T19:12:29 ART" name="testBaseDeDatos" finished-at="2023-06-13T19:12:29 ART" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBaseDeDatos -->
+      </class> <!-- Edit.EducacionIT_64250.AccesoABaseDeDatosTest -->
+      <class name="Edit.EducacionIT_64250.ScrollScreenshotTest">
+        <test-method signature="scrollScreenshotTest()[pri:0, instance:Edit.EducacionIT_64250.ScrollScreenshotTest@7f010382]" started-at="2023-06-13T19:13:48 ART" name="scrollScreenshotTest" finished-at="2023-06-13T19:14:43 ART" duration-ms="54881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollScreenshotTest -->
+      </class> <!-- Edit.EducacionIT_64250.ScrollScreenshotTest -->
+      <class name="Edit.EducacionIT_64250.Clase5Test">
+        <test-method is-config="true" signature="abrirNavegador()[pri:0, instance:Edit.EducacionIT_64250.Clase5Test@161479c6]" started-at="2023-06-13T19:12:02 ART" name="abrirNavegador" finished-at="2023-06-13T19:12:13 ART" duration-ms="11223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirNavegador -->
+        <test-method signature="irAContactanos()[pri:0, instance:Edit.EducacionIT_64250.Clase5Test@161479c6]" started-at="2023-06-13T19:13:21 ART" name="irAContactanos" description="CP02 - Ir a Contactanos en AutomationPractice" finished-at="2023-06-13T19:13:34 ART" duration-ms="13266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- irAContactanos -->
+        <test-method signature="buscarPalabra()[pri:1, instance:Edit.EducacionIT_64250.Clase5Test@161479c6]" started-at="2023-06-13T19:13:34 ART" name="buscarPalabra" description="CP01 - Buscar Palabra en AutomationPractice" finished-at="2023-06-13T19:13:34 ART" duration-ms="76" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #search_query_top
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0b8762be-0472-483c-85ca-8bbcd08c39c6, findElement {using=id, value=search_query_top}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0, moz:accessibilityChecks: false, moz:buildID: 20230504192738, moz:debuggerAddress: 127.0.0.1:10013, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4708, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10013/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b8762be-0472-483c-85ca-8bbcd08c39c6]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #search_query_top
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0b8762be-0472-483c-85ca-8bbcd08c39c6, findElement {using=id, value=search_query_top}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0, moz:accessibilityChecks: false, moz:buildID: 20230504192738, moz:debuggerAddress: 127.0.0.1:10013, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4708, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10013/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b8762be-0472-483c-85ca-8bbcd08c39c6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at Edit.EducacionIT_64250.Clase5Test.buscarPalabra(Clase5Test.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarPalabra -->
+        <test-method is-config="true" signature="cerrarNavegador()[pri:0, instance:Edit.EducacionIT_64250.Clase5Test@161479c6]" started-at="2023-06-13T19:15:01 ART" name="cerrarNavegador" finished-at="2023-06-13T19:15:01 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarNavegador -->
+      </class> <!-- Edit.EducacionIT_64250.Clase5Test -->
+      <class name="Edit.EducacionIT_64250.AppTest">
+        <test-method signature="shouldAnswerWithTrue()[pri:0, instance:Edit.EducacionIT_64250.AppTest@45018215]" started-at="2023-06-13T19:12:29 ART" name="shouldAnswerWithTrue" finished-at="2023-06-13T19:12:29 ART" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- Edit.EducacionIT_64250.AppTest -->
+      <class name="pruebas.Clase7Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pruebas.Clase7Test@1e802ef9]" started-at="2023-06-13T19:12:13 ART" name="setUp" finished-at="2023-06-13T19:12:21 ART" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login()[pri:0, instance:pruebas.Clase7Test@1e802ef9]" started-at="2023-06-13T19:14:43 ART" name="login" finished-at="2023-06-13T19:14:46 ART" duration-ms="3472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.Clase7Test@1e802ef9]" started-at="2023-06-13T19:15:01 ART" name="tearDown" finished-at="2023-06-13T19:15:01 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pruebas.Clase7Test -->
+      <class name="Edit.EducacionIT_64250.Clase4Test">
+        <test-method signature="registrarUsuario()[pri:0, instance:Edit.EducacionIT_64250.Clase4Test@d706f19]" started-at="2023-06-13T19:12:58 ART" name="registrarUsuario" finished-at="2023-06-13T19:13:21 ART" duration-ms="23440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrarUsuario -->
+      </class> <!-- Edit.EducacionIT_64250.Clase4Test -->
+      <class name="Edit.EducacionIT_64250.Clase2Test">
+        <test-method signature="buscarPalabraChrome()[pri:0, instance:Edit.EducacionIT_64250.Clase2Test@65d6b83b]" started-at="2023-06-13T19:12:29 ART" name="buscarPalabraChrome" finished-at="2023-06-13T19:12:49 ART" duration-ms="20080" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-QQJINFP', ip: '192.168.1.5']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-QQJINFP', ip: '192.168.1.5'
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:157)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:101)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:84)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:52)
+at Edit.EducacionIT_64250.Clase2Test.buscarPalabraChrome(Clase2Test.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver process to start.
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: driver.version: ChromeDriver
+at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:114)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarPalabraChrome -->
+        <test-method signature="buscarPalabraFirefox()[pri:0, instance:Edit.EducacionIT_64250.Clase2Test@65d6b83b]" started-at="2023-06-13T19:12:49 ART" name="buscarPalabraFirefox" finished-at="2023-06-13T19:12:58 ART" duration-ms="8447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buscarPalabraFirefox -->
+      </class> <!-- Edit.EducacionIT_64250.Clase2Test -->
+      <class name="pruebas.Clase8Test">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:12:21 ART" name="setUp" finished-at="2023-06-13T19:12:29 ART" duration-ms="8056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:14:47 ART" name="login" data-provider="Datos Login Excel" finished-at="2023-06-13T19:14:53 ART" duration-ms="6120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo01@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4et43wr43wr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:14:53 ART" name="login" data-provider="Datos Login Excel" finished-at="2023-06-13T19:14:56 ART" duration-ms="3105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo02@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[67utu6r7ur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:14:56 ART" name="login" data-provider="Datos Login Excel" finished-at="2023-06-13T19:14:58 ART" duration-ms="1701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo03@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[q32e3war3wr]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:14:58 ART" name="login" data-provider="Datos Login Excel" finished-at="2023-06-13T19:14:59 ART" duration-ms="1583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo04@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23rwreaq2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:14:59 ART" name="login" data-provider="Datos Login Excel" finished-at="2023-06-13T19:15:01 ART" duration-ms="1821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[correo05@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sdasfasfasds]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:pruebas.Clase8Test@2b6faea6]" started-at="2023-06-13T19:15:01 ART" name="tearDown" finished-at="2023-06-13T19:15:01 ART" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pruebas.Clase8Test -->
+      <class name="Edit.EducacionIT_64250.MobileEmulationTest">
+        <test-method signature="testMobileEmulation()[pri:0, instance:Edit.EducacionIT_64250.MobileEmulationTest@4313f5bc]" started-at="2023-06-13T19:13:34 ART" name="testMobileEmulation" finished-at="2023-06-13T19:13:48 ART" duration-ms="13645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileEmulation -->
+      </class> <!-- Edit.EducacionIT_64250.MobileEmulationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Surefire suite</th></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">13</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">152.209</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Edit.EducacionIT_64250.Clase2Test</td><td><a href="#m0">buscarPalabraChrome</a></td><td rowspan="1">1686694349669</td><td rowspan="1">20080</td></tr><tr class="failedodd"><td rowspan="1">Edit.EducacionIT_64250.Clase5Test</td><td><a href="#m1">buscarPalabra</a></td><td rowspan="1">1686694414909</td><td rowspan="1">76</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Edit.EducacionIT_64250.AccesoABaseDeDatosTest</td><td><a href="#m2">testBaseDeDatos</a></td><td rowspan="1">1686694349370</td><td rowspan="1">294</td></tr><tr class="passedodd"><td rowspan="1">Edit.EducacionIT_64250.AppTest</td><td><a href="#m3">shouldAnswerWithTrue</a></td><td rowspan="1">1686694349666</td><td rowspan="1">2</td></tr><tr class="passedeven"><td rowspan="1">Edit.EducacionIT_64250.Clase2Test</td><td><a href="#m4">buscarPalabraFirefox</a></td><td rowspan="1">1686694369753</td><td rowspan="1">8447</td></tr><tr class="passedodd"><td rowspan="1">Edit.EducacionIT_64250.Clase4Test</td><td><a href="#m5">registrarUsuario</a></td><td rowspan="1">1686694378201</td><td rowspan="1">23440</td></tr><tr class="passedeven"><td rowspan="1">Edit.EducacionIT_64250.Clase5Test</td><td><a href="#m6">irAContactanos</a></td><td rowspan="1">1686694401642</td><td rowspan="1">13266</td></tr><tr class="passedodd"><td rowspan="1">Edit.EducacionIT_64250.MobileEmulationTest</td><td><a href="#m7">testMobileEmulation</a></td><td rowspan="1">1686694414987</td><td rowspan="1">13645</td></tr><tr class="passedeven"><td rowspan="1">Edit.EducacionIT_64250.ScrollScreenshotTest</td><td><a href="#m8">scrollScreenshotTest</a></td><td rowspan="1">1686694428634</td><td rowspan="1">54881</td></tr><tr class="passedodd"><td rowspan="1">pruebas.Clase7Test</td><td><a href="#m9">login</a></td><td rowspan="1">1686694483516</td><td rowspan="1">3472</td></tr><tr class="passedeven"><td rowspan="5">pruebas.Clase8Test</td><td><a href="#m10">login</a></td><td rowspan="5">1686694487227</td><td rowspan="5">6120</td></tr><tr class="passedeven"><td><a href="#m11">login</a></td></tr><tr class="passedeven"><td><a href="#m12">login</a></td></tr><tr class="passedeven"><td><a href="#m13">login</a></td></tr><tr class="passedeven"><td><a href="#m14">login</a></td></tr></tbody>
+</table>
+<h2>Surefire test</h2><h3 id="m0">Edit.EducacionIT_64250.Clase2Test#buscarPalabraChrome</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: &apos;DESKTOP-QQJINFP&apos;, ip: &apos;192.168.1.5&apos;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:229)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:157)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:101)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at Edit.EducacionIT_64250.Clase2Test.buscarPalabraChrome(Clase2Test.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver process to start.
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: driver.version: ChromeDriver
+	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:114)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	... 38 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Edit.EducacionIT_64250.Clase5Test#buscarPalabra</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #search_query_top
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [0b8762be-0472-483c-85ca-8bbcd08c39c6, findElement {using=id, value=search_query_top}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 113.0, moz:accessibilityChecks: false, moz:buildID: 20230504192738, moz:debuggerAddress: 127.0.0.1:10013, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4708, moz:profile: C:\Users\Lenovo\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:10013/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0b8762be-0472-483c-85ca-8bbcd08c39c6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at Edit.EducacionIT_64250.Clase5Test.buscarPalabra(Clase5Test.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">Edit.EducacionIT_64250.AccesoABaseDeDatosTest#testBaseDeDatos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">Edit.EducacionIT_64250.AppTest#shouldAnswerWithTrue</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">Edit.EducacionIT_64250.Clase2Test#buscarPalabraFirefox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">Edit.EducacionIT_64250.Clase4Test#registrarUsuario</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">Edit.EducacionIT_64250.Clase5Test#irAContactanos</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">Edit.EducacionIT_64250.MobileEmulationTest#testMobileEmulation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">Edit.EducacionIT_64250.ScrollScreenshotTest#scrollScreenshotTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">pruebas.Clase7Test#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">pruebas.Clase8Test#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>correo01@mailinator.com</td><td>4et43wr43wr</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">pruebas.Clase8Test#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>correo03@mailinator.com</td><td>q32e3war3wr</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">pruebas.Clase8Test#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>correo05@mailinator.com</td><td>sdasfasfasds</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">pruebas.Clase8Test#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>correo04@mailinator.com</td><td>23rwreaq2</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">pruebas.Clase8Test#login</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>correo02@mailinator.com</td><td>67utu6r7ur</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
